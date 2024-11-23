@@ -1,0 +1,25 @@
+[project.name]
+en-us = "Borderless Glass"
+de-de = "Randloses Glas"
+
+[project.description]
+en-us = "This resource pack removes borders from glass to give it a modern and clean look."
+de-de = "Dieses Resourcenpaket entfernt Ränder von Glas, um einen modernen und klaren Look zu bieten"
+
+[project]
+version = "1.0.0"
+authors = ["Jonas da Silva"]
+license = "MIT"
+url = "https://github.com/phoenixr-codes/BorderlessGlass"
+min-engine-version = "1.20.0"
+
+[localization]
+primary-language = "en-us"
+
+[[plugin]]
+name = "remove_borders.py"
+run = "plugins/remove_borders.py"
+with = "python3"
+
+[env]
+
