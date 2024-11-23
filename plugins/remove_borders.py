@@ -6,7 +6,7 @@ from collections import Counter
 type Color = tuple[int, int, int]
 
 
-def dominant_color(im: Image) -> Color:
+def dominant_color(im: Image.Image) -> Color:
     return (Counter(im.getdata()).most_common(1))[0][0]
 
 
